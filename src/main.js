@@ -1,8 +1,28 @@
 import Vue from 'vue'
-import App from './App.vue'
+import Dashboard from './views/Dashboard.vue'
 
 Vue.config.productionTip = false
 
+const routes = {
+  'dashboard': Dashboard
+}
+
 new Vue({
-  render: h => h(App),
+
+  data () {
+    return {
+      currentRoute: window.location.pathname
+    }
+    
+  },
+  
+  computed: {
+    ViewComponent () {
+      return routes[this.currentRoute] || Dashboard
+    }
+  },
+
+  render (h) {
+    return h(this.ViewComponent)
+  }
 }).$mount('#app')
