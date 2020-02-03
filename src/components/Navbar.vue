@@ -8,7 +8,7 @@
               <a href="#" class="inline-flex">
                 <img
                   class="w-10 h-10"
-                  src="https://img.icons8.com/bubbles/50/000000/--sunflower.png"
+                  src="./../assets/sunflower.png"
                 />
                 <span class="text-2xl font-bold text-gray-800">sunflower</span>
               </a>
@@ -77,8 +77,9 @@
 </template>
 
 <script>
+
 export default {
-  name: "navbar-component"
+  name: "navbar-component",
 };
 </script>
 

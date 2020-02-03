@@ -1,14 +1,14 @@
 <template>
   <div>
     <div
-      class="lg:sticky fixed hidden py-16 overflow-y-auto text-base bg-white shadow-2xl lg:block lg:h-screen lg:-ml-6 lg:text-sm lg:py-10"
+      class="fixed w-56 hidden overflow-y-auto text-base bg-white shadow-2xl lg:block lg:h-screen lg:text-sm lg:py-16"
     >
-      <div class="px-6 py-4">
+      <div class="pl-6 py-4">
         <span class="font-light leading-loose text-gray-600 uppercase">Menu</span>
       </div>
       <a
         href="#"
-        class="flex px-6 py-3 text-base font-light text-blue-500 border-l-4 border-blue-500 hover:border-blue-500 hover:text-blue-500"
+        class="w-full flex px-6 py-3 text-base font-light text-blue-500 border-l-4 border-blue-500 hover:border-blue-500 hover:text-blue-500"
       >
         <span class="mr-4">
           <svg

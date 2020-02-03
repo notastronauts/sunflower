@@ -1,10 +1,12 @@
 import Vue from 'vue'
 import Dashboard from './views/Dashboard.vue'
+import Maps from './views/Maps.vue'
 
 Vue.config.productionTip = false
 
 const routes = {
-  'dashboard': Dashboard
+  '/dashboard': Dashboard,
+  '/maps': Maps
 }
 
 new Vue({
@@ -13,9 +15,9 @@ new Vue({
     return {
       currentRoute: window.location.pathname
     }
-    
+
   },
-  
+
   computed: {
     ViewComponent () {
       return routes[this.currentRoute] || Dashboard
@@ -25,4 +27,5 @@ new Vue({
   render (h) {
     return h(this.ViewComponent)
   }
+
 }).$mount('#app')
