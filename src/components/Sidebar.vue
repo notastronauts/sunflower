@@ -7,7 +7,7 @@
         <span class="font-light leading-loose text-gray-600 uppercase">Menu</span>
       </div>
       <a
-        href="#"
+        href="/"
         class="w-full flex px-6 py-3 text-base font-light text-blue-500 border-l-4 border-blue-500 hover:border-blue-500 hover:text-blue-500"
       >
         <span class="mr-4">
@@ -27,7 +27,7 @@
         Dashboard
       </a>
       <a
-        href="#"
+        href="./profile"
         class="flex px-6 py-3 text-base font-light text-gray-600 border-l-4 border-white hover:border-blue-500 hover:text-blue-500"
       >
         <span class="mr-4">
@@ -81,7 +81,7 @@
         </span>
       </a>
       <a
-        href="#"
+        href="./maps"
         class="flex px-6 py-3 text-base font-light text-gray-600 border-l-4 border-white hover:border-blue-500 hover:text-blue-500"
       >
         <span class="mr-4">

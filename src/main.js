@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import Dashboard from './views/Dashboard.vue'
-import Maps from './views/Maps.vue'
+import Profile from './views/Profile.vue'
 
 Vue.config.productionTip = false
 
 const routes = {
   '/dashboard': Dashboard,
-  '/maps': Maps
+  '/profile': Profile
 }
 
 new Vue({

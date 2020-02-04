@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <div class="">
     <Navbar></Navbar>
     <div class="w-full max-w-screen-xl mx-auto bg-gray-100">
@@ -13,11 +13,12 @@
 import Navbar from './../components/Navbar.vue'
 import Sidebar from './../components/Sidebar.vue'
 export default {
-  name: 'maps',
+  name: 'profile',
   components: {
-    Sidebar,
-    Navbar
-  },
+    Navbar,
+    Sidebar
+  }
+
 }
 </script>
 

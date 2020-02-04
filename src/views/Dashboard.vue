@@ -33,7 +33,7 @@
                       </svg>
                   </span>
                 </div>
-                <span class="text-4xl font-bold text-gray-800 leading-tight">12.5k</span>
+                <span class="text-4xl font-bold text-gray-800 leading-tight">321.5k</span>
                 <span class="text-xs font-semibold text-gray-600">Impressions</span>
               </div>
               <div class="flex flex-col items-center justify-center rounded-lg bg-white h-32 mt-4 shadow-lg w-full mx-2 hover:shadow-2xl">
@@ -45,7 +45,7 @@
                       </svg>
                   </span>
                 </div>
-                <span class="text-4xl font-bold text-gray-800 leading-tight">12.5k</span>
+                <span class="text-4xl font-bold text-gray-800 leading-tight">842.2k</span>
                 <span class="text-xs font-semibold text-gray-600">Reach</span>
               </div>
             </div>
@@ -114,7 +114,7 @@ export default {
     return {
       series: [{
           name: 'Posts',
-          data: [50, 120, 51, 66, 122, 87, 82, 45, 79, 82]
+          data: [73, 120, 93, 120, 122, 87, 82, 72, 79, 82]
         },
         {
           name: 'Views',
