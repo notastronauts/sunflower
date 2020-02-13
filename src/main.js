@@ -3,7 +3,7 @@ import Dashboard from './views/Dashboard.vue'
 import Profile from './views/Profile.vue'
 
 // Comment
-
+// coment ke 2
 Vue.config.productionTip = false
 
 const routes = {
